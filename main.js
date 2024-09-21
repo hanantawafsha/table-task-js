@@ -15,13 +15,20 @@ var names = [
   //  console.log(tablelenght);
 
    // console.log(document.querySelector("#tableOfName"));
-var tablename = "<table border='1'> <thead> <tr> <td>Name</td> </tr> </thead> <tbody>";
+   var tablename = ``;
+ tablename += `<table border='1'> 
+ <thead> 
+ <tr>
+  <td>Name</td> 
+  </tr>
+   </thead>
+    <tbody>`;
       
 
             for (var i = 0; i < tablelenght; i++) {
                 tablename += `<tr><td> ${names[i]} </td></tr>`;
             }
-            tablename += "</tbody></table>";
+            tablename += `</tbody></table>`;
 
             document.querySelector("#tableOfName").innerHTML = tablename;
 
