@@ -19,7 +19,7 @@ var tablename = "<table border='1'> <thead> <tr> <td>Name</td> </tr> </thead> <t
       
 
             for (var i = 0; i < tablelenght; i++) {
-                tablename += "<tr><td>" + names[i] + "</td></tr>";
+                tablename += `<tr><td> ${names[i]} </td></tr>`;
             }
             tablename += "</tbody></table>";
 
